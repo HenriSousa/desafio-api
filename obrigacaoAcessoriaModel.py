@@ -2,8 +2,8 @@ from sqlalchemy import Column, Integer, String, ForeignKey
 from sqlalchemy.orm import relationship
 from database import Base
 
-class ObrigacaoAssessoria(Base):
-    __tablename__ = 'obrigacoes_assessorias'
+class ObrigacaoAcessoria(Base):
+    __tablename__ = 'obrigacoes_acessorias'
 
     id = Column(Integer, primary_key=True, index=True)
     nome = Column(String)

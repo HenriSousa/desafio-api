@@ -16,8 +16,8 @@ Este projeto é uma API desenvolvida com FastAPI, SQLAlchemy e Pydantic para ger
 ### 1. Clonar o Repositório
 
 ```sh
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/HenriSousa/desafio-api.git
+cd desafio-api
 ```
 
 ### 2. Criar e Ativar um Ambiente Virtual
@@ -66,14 +66,14 @@ classDiagram
         +string telefone
     }
     
-    class ObrigacaoAssessoria {
+    class ObrigacaoAcessoria {
         +int id
         +string nome
         +string periodicidade
         +int empresa_id
     }
     
-    Empresa "1" -- "*" ObrigacaoAssessoria : possui
+    Empresa "1" -- "*" ObrigacaoAcessoria : possui
    
 ```
 
